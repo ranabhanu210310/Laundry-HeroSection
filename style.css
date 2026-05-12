@@ -87,3 +87,36 @@ h1{
     color: grey;
     flex-grow: 2;
  }
+@media(max-width:600px){
+section{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding:20px;
+   gap: 40px;
+   margin: 40%;
+justify-content: center;
+    align-items: center;
+}
+.Left-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: auto;
+    gap: 15px;
+}
+.Rght-div{
+    width: 100%;
+     display: flex;
+     justify-content: center;
+}
+body{
+    gap: 10px;
+}
+main,nav{
+    width: 100%;
+}
+
+   }
