@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ body{
+    /* margin: 0px;
+    padding: 0px; */
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+ }
+ 
+
+ nav{
+    display: flex;
+    min-height: 80px;
+    justify-content:space-between;
+    align-items: center;
+ }
+.logo{
+    padding: 10px 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px 70px;
+    color:darkgray;
+    cursor: pointer;
+}
+.username{
+    padding: 23px 20px;
+    color:#0369a1;
+    background-color: #e0f2fe;
+    border-radius: 20px;
+    margin: 0px 70px;
+    cursor: pointer;
+}
+
+ .list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: grey;
+    cursor: pointer;
+ }
+section{
+    display: flex;
+    /* min-height: 700px; */
+    justify-content: space-evenly;
+    align-items: center;
+    height: calc(100vh-80px);
+   
+    
+}
+.Left-div{
+    display: flex;
+    flex-basis: 27%;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.Rght-div{
+    display: flex;
+    flex-basis: 73%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+#h1-2{
+    color: blue ;
+}
+#p1{
+    color: white;
+    background-color:blue;
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+     
+}
+ p{
+    color: grey;
+    flex-grow: 2;
+ }
